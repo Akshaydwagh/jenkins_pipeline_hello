@@ -18,6 +18,11 @@ node {
 }
 node {
     stage('Deploy to Prod'){
-        echo "Prod Movement"
+        input "Deploy to Prod?"
     }
 }
+node {
+    stage('Deploy to Prod'){
+        echo "deploying prod "
+    }
+}PROD
