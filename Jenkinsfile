@@ -25,4 +25,4 @@ node {
     stage('Deploy to Prod'){
         echo "deploying prod "
     }
-}PROD
+}
